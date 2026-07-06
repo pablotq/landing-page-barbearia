@@ -1,7 +1,7 @@
 interface ServiceCardProps{
     icon: React.ReactNode;
     title: string;
-    desciption: string;
+    description: string;
     price:string;
 }
 
