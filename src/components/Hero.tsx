@@ -1,25 +1,26 @@
-import heroBarbearia from '../../assets/hero-barbershop.jpg'
+import heroBarbearia from '../assets/hero-barbershop.jpg'
+import { Button } from './shared/Button';
 
 export function Hero() {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
 
-  return (
+    return (
         <section id='hero'
             className='min-h-screen w-full flex items-center pt-20 bg-[#0A0A0A] relative overflow-hidden'>
 
             <div className='absolute inset-0 z-0'>
                 <img src={heroBarbearia} alt="Interior da barbearia barbearia"
                     className='w-full h-full object-cover' />
-                <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/95 to-[#0A0A0A]/80"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-[#0A0A0A] via-[#0A0A0A]/95 to-[#0A0A0A]/80"></div>
                 <div className="absolute inset-0  bg-[#0A0A0A]/40"></div>
             </div>
 
-            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+            <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center py-16 lg:py-24 ">
                     <div className="flex flex-col gap-6 lg:gap-8">
                         <h1 className="text-white drop-shadow-lg">
@@ -33,13 +34,20 @@ export function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <button className='bg-amber-300 text-white rounded-md px-4 py-2' onClick={() => window.open("https://wa.me/5585999999999", "_blank")}>
+                            <Button
+                                variant="primary"
+                                onClick={() =>
+                                    window.open("https://wa.me/5585999999999", "_blank")
+                                }
+                            >
                                 Agendar no WhatsApp
-                            </button>
-                            <button className='bg-amber-300 text-white rounded-md px-4 py-2'
-                                onClick={() => scrollToSection("services")}>
+                            </Button>
+                            <Button
+                                variant="secondary"
+                                onClick={() => scrollToSection("services")}
+                            >
                                 Ver serviços
-                            </button>
+                            </Button>
                         </div>
                     </div>
                 </div>
