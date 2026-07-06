@@ -16,7 +16,7 @@ export function Hero() {
             <div className='absolute inset-0 z-0'>
                 <img src={heroBarbearia} alt="Interior da barbearia barbearia"
                     className='w-full h-full object-cover' />
-                <div className="absolute inset-0 bg-linear-to-r from-[#0A0A0A] via-[#0A0A0A]/95 to-[#0A0A0A]/80"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-[#0A0A0A] via-[#0A0A0A]/95 to-[#0A0A0A]/40"></div>
                 <div className="absolute inset-0  bg-[#0A0A0A]/40"></div>
             </div>
 
