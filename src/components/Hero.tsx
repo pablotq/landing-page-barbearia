@@ -21,9 +21,9 @@ export function Hero() {
             </div>
 
             <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
-                <div className="grid lg:grid-cols-2 gap-12 items-center py-16 lg:py-24 ">
+                <div className="grid lg:grid-cols-2 gap-12 items-center py-16 lg:py-24">
                     <div className="flex flex-col gap-6 lg:gap-8">
-                        <h1 className="text-white drop-shadow-lg">
+                        <h1 className="text-white text-4xl md:text-6xl font-bold drop-shadow-lg">
                             Corte na régua, barba alinhada e atendimento de respeito.
                         </h1>
 
@@ -33,7 +33,7 @@ export function Hero() {
                             homem moderno.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex flex-col sm:flex-row gap-4 pt-4">
                             <Button
                                 variant="primary"
                                 onClick={() =>

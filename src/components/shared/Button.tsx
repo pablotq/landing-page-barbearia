@@ -12,13 +12,13 @@ export function Button ({
     ...props
 }: ButtonProps) {
     const baseStyles =
-        "rounded-md px-4 py-2 transition-all duration-300 font-medium cursor-pointer";
+        "px-8 py-3 rounded-lg transition-all duration-300 cursor-pointer font-medium";
 
     const variantStyles = {
         primary:
-            "bg-amber-500 hover:bg-amber-600 text-white shadow-lg hover:shadow-xl",
+            "bg-golden-primary text-[#0A0A0A] hover:bg-[#B89B2F] hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]",
         secondary:
-            "bg-transparent border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white",
+            "bg-transparent text-golden-primary border-2 border-golden-primary hover:bg-golden-primary hover:text-[#0A0A0A]",
     };
     return (
         <button

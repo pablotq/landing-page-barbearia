@@ -10,17 +10,17 @@ export const ServiceCard = ({icon, title, description, price}: ServiceCardProps)
         <div className="bg-[#1A1A1A] border border-[rgba(212,175,55,0.2)] rounded-lg p-6 hover:border-golden-primary transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.1)] group">
 
             <div className="flex flex-col gap-4">
-                <div className="w-12 h-12 rounded-lg bg-golden-primary/10 flex items-center justify-center group-hover:bg-golden-primary/20 transition-colors duration-300">
+                <div className="w-12 h-12 rounded-lg bg-golden-primary/10 flex items-center justify-center text-golden-primary  group-hover:bg-golden-primary/20 transition-colors duration-300">
                     {icon}
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <h3 className="text-white">{title}</h3>
+                    <h3 className="text-white font-bold text-lg group-hover:text-golden-primary transition-colors duration-300\">{title}</h3>
                     <p className="text-[#A0A0A0] text-sm">{description}</p>
                 </div>
 
                 <div className="pt-2 border-t border-[rgba(212,175,55,0.1)]">
-                    <span className="text-golden-primary">{price}</span>
+                    <span className="text-golden-primary font-bold text-lg">{price}</span>
                 </div>
             </div>
             

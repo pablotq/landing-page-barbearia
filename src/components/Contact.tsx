@@ -4,8 +4,9 @@ import { Button } from "./shared/Button";
 export const Contact = () => {
     return (
         <section id="contact" className="py-16 lg:py-24 bg-[#0A0A0A]">
-            <div className="text-center">
-                <h2 className="text-white mb-4">Contato</h2>
+            <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Contato</h2>
+                <div className="w-24 h-1 bg-linear-to-r from-transparent via-golden-primary to-transparent mx-auto"></div>
             </div>
             <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8 bg-[#1A1A1A] rounded-lg py-8">
                 <h3 className="mb-6 text-white">Informações</h3>

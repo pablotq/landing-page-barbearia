@@ -43,11 +43,11 @@ export const Services = () => {
 ];
 
     return (
-        <section className="py-16 lg:py-24 bg-[#0A0A0A]">
+        <section id="services" className="py-18 md:py-20 lg:py-24 bg-[#0A0A0A]">
             <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center">
-                    <h2 className="text-white mb-4">Serviços</h2>
-                    <div></div>
+                <div className="text-center mb-12">
+                    <h2 className="text-white text-4xl md:text-5xl font-bold mb-4">Serviços</h2>
+                    <div className="w-24 h-1 bg-linear-to-r from-transparent via-golden-primary to-transparent mx-auto"></div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
