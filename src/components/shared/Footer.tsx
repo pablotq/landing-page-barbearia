@@ -16,7 +16,7 @@ export const Footer = () => {
                     <ul className="flex flex-row items-center gap-6">
                         <li>
                             <a
-                                href="https://www.instagram.com/barbearianavalha/"
+                                href="https://www.instagram.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex text-[#A0A0A0] hover:text-golden-primary transition-colors duration-300"
@@ -28,7 +28,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                href="https://wa.me/5585999999999"
+                                href="https://wa.me/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex text-[#A0A0A0] hover:text-golden-primary transition-colors duration-300"
@@ -40,7 +40,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                href="https://maps.google.com/?q=Barbearia+Navalha"
+                                href="https://maps.google.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex text-[#A0A0A0] hover:text-golden-primary transition-colors duration-300"
